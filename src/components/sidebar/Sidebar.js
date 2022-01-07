@@ -12,15 +12,16 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
             <div className="sidebar__title">
                 <div className="sidebar__img">
                     <img src={logo} alt="logo" />
-                    <h1>Eginer Soluctions</h1>
+                    <p/>
+                    <h1>Jandson</h1>
                     </div>
-
+                    
+                    <a className="coricon" href="">
                     <i onClick={() => closeSidebar()}
-                    className="fa fa-times"
-                    id="sidebarIcon"
-                    aria-hidden="true"
-                    ></i> 
-                </div>
+                    className=""
+                    id="sidebarIcon" aria-hidden="true"></i> <img src="https://img.icons8.com/ios/25/000000/menu--v1.png"/> </a>
+                   
+                   </div>
 
                
                 <div className="sidebar__menu">

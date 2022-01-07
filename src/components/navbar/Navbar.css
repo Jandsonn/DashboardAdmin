@@ -28,5 +28,41 @@
 
 .nav__left .active_link {
     color: #265acc;
+    border-bottom: 3px solid #265acc;
+    padding-bottom: 12px;
+}
+
+.nav__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.nav__right > a {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.nav__right > a > i {
+    color: #a5aaad;
+    font-size: 16px;
+    border-radius: 50px;
+    background: #fff;
+    box-shadow: 2px 2px 5px #aeacac, -2px -2px 5px rgb(191, 189, 189);
+    padding: 7px;
+}
+
+@media only screen and (max-width: 978px){
+    .nav_icon{
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .navbar__left{
+        display:none;
+    }
 }
 
