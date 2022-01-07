@@ -29,7 +29,7 @@ const Navbar = ({sidebarOpen, openSidebar}) => {
 
 
                 <a href="#/">
-                    <img width="30" src={avatar} alt="avatar" />
+                    <img width="25" src={avatar} alt="avatar" />
                 </a>
 
             </div>
