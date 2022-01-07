@@ -1,6 +1,6 @@
 import './Sidebar.css'
 
-import logo from '../../assets/logo.png';
+import logo from '../../assets/perfil.jpeg';
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"></link>
 
@@ -16,7 +16,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
                     <h1>Jandson</h1>
                     </div>
                     
-                    <a className="coricon" href="">
+                    <a className="coricon" href="#/">
                     <i onClick={() => closeSidebar()}
                     className=""
                     id="sidebarIcon" aria-hidden="true"></i> <img src="https://img.icons8.com/ios/25/000000/menu--v1.png"/> </a>
@@ -87,7 +87,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
                     <div className="sidebar__link">
                         <a href="https://www.linkedin.com/feed/?trk=homepage-basic_google-one-tap-submit"> <i> <img src="https://img.icons8.com/ios-glyphs/25/000000/linkedin.png"/> </i> </a> 
                         <a href="https://www.linkedin.com/feed/?trk=homepage-basic_google-one-tap-submit"> <i><img src="https://img.icons8.com/ios-glyphs/30/000000/whatsapp.png"/> </i> </a> 
-                        <a href="https://github.com/Jandsonn"> <i><img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/> </i> </a> 
+                        <a href="https://github.com/Jandsonn"> <i> <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/> </i> </a> 
                     </div>    
 
    
