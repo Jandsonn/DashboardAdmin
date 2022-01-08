@@ -17,36 +17,40 @@ const Main = () => {
 
                 <div className="main__cards"></div>
                     <div className="card">
+                    <img src=" https://cdn-icons.flaticon.com/png/512/2003/premium/2003257.png?token=exp=1641603976~hmac=8ca730f961bd2ab3378f659d1b0ad5fc" width={40}></img>
                      <i className="fa fa-file-text fa-2x text-lightblue"></i>
                             <div className="card_inner">
                             <p className="text-primary-p">Número de pedidos</p>
                         <span className="font-bold text-title">3400</span>
                     </div>
                 </div>
-              
-
+               
+               
                 <div className="card">
-                 <i className="fa fa-money fa-2x text-red"></i>
+                 <i className="fa fa-money- fa-2x text-red"></i>
                         <div className="card__inner">
                         <p className="text-primary-p">Pagamentos</p>
                         <span className="font-bold text-title">R$218.698</span>
+                        <img src="https://cdn-icons.flaticon.com/png/512/3110/premium/3110547.png?token=exp=1641603101~hmac=45e91d2f92479bbd6a78b75fc2e19b20" width={60}></img>
                     </div>
                 </div>
 
                
                 <div className="card">
-                <i className="fa fa-archive fa-2x text-red"></i>
+                <i className="fa fa-archive- fa-2x text-red"></i>
                     <div className="card__inner">
-                        <p className="text-primary-p">Número de pedidos</p>
+                        <p className="text-primary-p">Relatórios</p>
                         <span className="font-bold text-title">5000</span>
+                        <img src="https://cdn-icons.flaticon.com/png/512/3889/premium/3889588.png?token=exp=1641603259~hmac=9e91ac0b54c0809008d17216c5d82cd5" width={60}></img>
                     </div>
                 </div>
 
                 <div className="card">
-                 <i className="fa fa-bars fa-2x text-yellow"></i>
+                 <i className="fa fa-bars- fa-2x text-yellow"></i>
                     <div className="card__inner">
                         <p className="text-primary-p">Categorias</p>
                         <span className="font-bold text-title">45</span>
+                        <img src="https://cdn-icons.flaticon.com/png/512/2816/premium/2816963.png?token=exp=1641603527~hmac=f452abfe641a9b019e88755353a30524" width={60}></img>
                     </div>
                 </div>
 
@@ -94,7 +98,7 @@ const Main = () => {
                             <h1>Banco de dados</h1>
                             <p>R$ 389,00</p>
                         </div>
-                        
+
                     </div>
                 </div>
              </div>
